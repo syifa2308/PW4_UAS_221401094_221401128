@@ -1,0 +1,6 @@
+Array
+(
+    [idb] => FLB017
+    [user_id] => 11
+    [jumlah] => 2
+)

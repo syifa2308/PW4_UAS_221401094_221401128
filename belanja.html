@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belanja Barang</title>
+</head>
+<body>
+    <h1>Selamat Datang di Toko Kami</h1>
+
+    <form action="proses_pembelian.php" method="post">
+        <label for="barang">Pilih Barang:</label>
+        <select name="barang" id="barang">
+            <!-- Isi opsi dengan barang-barang yang tersedia -->
+            <option value="barang1">Barang 1</option>
+            <option value="barang2">Barang 2</option>
+            <!-- Tambahkan lebih banyak opsi sesuai kebutuhan -->
+        </select>
+
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" name="jumlah" id="jumlah" min="1" required>
+
+        <button type="submit">Tambah ke Keranjang</button>
+    </form>
+
+    <h2>Keranjang Belanja Anda</h2>
+    <ul>
+        <!-- Tampilkan daftar barang yang telah ditambahkan ke keranjang -->
+        <!-- Anda dapat menggunakan PHP untuk menampilkan data dari program Anda -->
+        <!-- Contoh statis: -->
+        <li>Barang 1 - Jumlah: 2</li>
+        <li>Barang 2 - Jumlah: 1</li>
+    </ul>
+</body>
+</html>
